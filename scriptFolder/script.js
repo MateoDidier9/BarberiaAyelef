@@ -210,4 +210,107 @@ function moveCarousel(direction) {
     track.style.transition = 'transform 0.5s ease-in-out';
 }
 
+
+
+
+
+
+
+
+/*Efecto scroll reveal*/
+
+ScrollReveal().reveal('.rigthSide', {
+    duration: 2000,
+    origin:'bottom',
+    distance:'-100px',
+    reset: true
+});
+
+
+ScrollReveal().reveal('.imgOwner', {
+    duration: 1000,
+    origin:'right',
+    distance:'-100px',
+    reset: true
+});
+
+ScrollReveal().reveal('.aboutBig', {
+    duration: 1000,
+    origin:'left',
+    distance:'-100px',
+    reset: true
+});
+
+ScrollReveal().reveal('.line-2', {
+    duration: 1000,
+    origin:'left',
+    distance:'-100px',
+    reset: true
+});
+
+ScrollReveal().reveal('.aboutText', {
+    duration: 1000,
+    origin:'left',
+    distance:'-100px',
+    reset: true
+});
+
+
+ScrollReveal().reveal('.bannerAbilite', {
+    duration: 1000,
+    origin:'right',
+    distance:'-100px',
+    reset: true
+});
+
+ScrollReveal().reveal('.carrusel-track', {
+    duration: 1000,
+    origin:'left',
+    distance:'-100px',
+    reset: true
+});
+
+ScrollReveal().reveal('.logoCourse', {
+    duration: 1000,
+    origin:'right',
+    distance:'-100px',
+    reset: true
+});
+
+ScrollReveal().reveal('.txtCourse', {
+    duration: 1000,
+    origin:'left',
+    distance:'-100px',
+    reset: true
+});
+
+
+
+ScrollReveal().reveal('.social-media', {
+    duration: 1000,
+    origin:'bottom',
+    distance:'-100px',
+    reset: true
+});
+
+ScrollReveal().reveal('.contact-info', {
+    duration: 1000,
+    origin:'top',
+    distance:'-100px',
+    reset: true
+});
+
+ScrollReveal().reveal('.map-container', {
+    duration: 1000,
+    origin:'bottom',
+    distance:'-100px',
+    reset: true
+});
+
+
+
+
+
+
+
   
