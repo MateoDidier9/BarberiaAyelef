@@ -548,7 +548,7 @@ a{
 .carousel{
     width: 100%;
     height: auto;
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.0);
     overflow: hidden;
     margin-top: 50px;
     margin-bottom: 50px;
