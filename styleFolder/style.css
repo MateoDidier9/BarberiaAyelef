@@ -872,7 +872,8 @@ a{
         background-image: url('../imageFolder/madera1.jpg'); /* URL de la imagen */
         background-size: cover; /* Asegura que la imagen cubra todo el div */
         background-position: center; /* Centra la imagen en el div */
-        background-repeat: no-repeat;
+        background-repeat: repeat;
+        background-attachment: scroll;
     }
     .social-media{
         width: 90%;
