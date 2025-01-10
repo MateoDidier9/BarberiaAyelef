@@ -171,6 +171,21 @@ scrollButtonKnowMe.addEventListener('click', (event) => {
     });
 });
 
+const buttonLogo = document.getElementById('logoNav');
+buttonLogo.addEventListener('click', (event) => {
+    event.preventDefault();
+});
+
+
+const botonesCarrusel = document.querySelectorAll('.carrusel');
+
+// Itera sobre los elementos y añade el EventListener a cada uno
+botonesCarrusel.forEach((button) => {
+    button.addEventListener('click', (event) => {
+        event.preventDefault();
+    });
+});
+
 
 /*Funcion carrusel*/ 
 
