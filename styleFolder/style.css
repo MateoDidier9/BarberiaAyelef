@@ -601,6 +601,18 @@ a{
     box-shadow:4px 4px 6px rgba(0, 0, 0, 0.3) ;
 }
 
+.carrusel a video{
+    object-fit: cover;
+    max-height: 600px;
+    max-width: 400px;
+    height: 60vw;
+    width: 50vw;
+    min-height: 500px;
+    min-width: 300px;
+    border-radius: 10%;
+    box-shadow:4px 4px 6px rgba(0, 0, 0, 0.3) ;
+}
+
 .carrusel-arrow{
     border-radius: 30px;
     background-color: #7f6756;
